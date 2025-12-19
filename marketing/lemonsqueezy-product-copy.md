@@ -23,6 +23,20 @@ From prototype to production in 48 hours. The framework for building AI agents t
 
 **Stop building AI demos that break in production.**
 
+---
+
+## The Gap We Close
+
+| Where You Are (Point A) | Where You'll Be (Point B) |
+|-------------------------|---------------------------|
+| Copy-pasting prompts from Twitter | Designing domain-specific agents |
+| Generic outputs that need heavy editing | Structured outputs ready for production |
+| Starting from scratch every time | Reusable framework for any domain |
+| Stuck on localhost forever | Deployed to Netlify in an afternoon |
+| "It works... sometimes" | Reliable, monitored, improvable systems |
+
+---
+
 You've seen the Twitter threads. You've taken the courses. You've even built a few ChatGPT wrappers.
 
 But when it's time to ship something real? Something that handles edge cases, scales with users, and doesn't hallucinate your company into a lawsuit?

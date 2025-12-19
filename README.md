@@ -30,6 +30,48 @@ This repo solves all of that. It's the system I use to prototype and productioni
 
 ---
 
+## Who This Is For
+
+### If You're a Product Manager...
+You're building AI features into your product. You need to understand what's possible, what's hard, and how to spec AI work for your engineers.
+
+**Before:** You copy-paste prompts from Twitter and get generic outputs that need heavy editing.
+**After:** You have a working prototype you can demo to stakeholders and a framework for speccing AI features your team can actually build.
+
+**Your first project:** Build an agent that helps with roadmap prioritization, competitive analysis, or PRD generation for YOUR product.
+
+---
+
+### If You're a Product Marketing Manager...
+You're drowning in positioning docs, battlecards, and launch plans. You want AI that understands PMM workflows—not generic ChatGPT that needs constant hand-holding.
+
+**Before:** You start from scratch every time and spend hours editing generic AI outputs.
+**After:** You have an agent that generates competitive battlecards, positioning statements, and messaging matrices in YOUR voice.
+
+**Your first project:** Build an agent that analyzes competitors and generates sales-ready battlecards for YOUR market.
+
+---
+
+### If You're a Founder or Solo Operator...
+You need PMM/PM output without hiring a team. You want to move fast but can't afford generic AI that makes you look amateur to investors and customers.
+
+**Before:** Your "AI strategy" is copying prompts and hoping for the best.
+**After:** You have a production-ready agent handling investor deck research, GTM strategy, and customer interview synthesis for YOUR startup.
+
+**Your first project:** Build an agent that prepares you for investor conversations with talking points and anticipated questions.
+
+---
+
+### If You're a Designer Learning AI...
+You want to understand what's under the hood so you can design better AI experiences. You know AI is changing product design and you want hands-on experience.
+
+**Before:** You've used ChatGPT but don't understand how AI products actually work.
+**After:** You have practical experience building agents and a framework for thinking about AI UX patterns.
+
+**Your first project:** Build an agent that synthesizes user research findings or generates design system documentation.
+
+---
+
 ## What You Get
 
 ### The Framework
