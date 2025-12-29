@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from langchain_anthropic import ChatAnthropic
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
 
 from .prompts import MAIN_SYSTEM_PROMPT
@@ -31,8 +31,8 @@ app.add_middleware(
 )
 
 # Initialize model with tools
-llm = ChatAnthropic(
-    model_name=os.getenv("MODEL", "claude-sonnet-4-20250514"),
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.5-flash",
     max_tokens=8192,
 )
 llm_with_tools = llm.bind_tools(ALL_TOOLS)
