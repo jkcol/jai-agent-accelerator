@@ -27,8 +27,7 @@ import remarkGfm from "remark-gfm";
 // CONFIGURATION
 // =============================================================================
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8123";
-
+const API_URL = (import.meta as any).env.VITE_API_URL || 'http://localhost:8123';
 // Tool display config with icons
 const TOOL_CONFIG: Record<string, { label: string; icon: string; color: string }> = {
   analyze_product: { label: "Analyzing product", icon: "FileText", color: "blue" },
