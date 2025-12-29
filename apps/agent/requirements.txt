@@ -30,7 +30,6 @@ langsmith==0.5.0
 orjson==3.11.5
 ormsgpack==1.12.1
 packaging==25.0
--e git+ssh://git@github.com/jkcol/jai-agent-accelerator.git@fffa7d1a12b3692d898442350ea4295618630bd7#egg=preprod_agent&subdirectory=apps/agent
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
 pydantic==2.12.5
